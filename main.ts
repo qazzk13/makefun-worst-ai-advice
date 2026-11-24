@@ -30,9 +30,22 @@ type Candidate = {
 };
 
 const CANDIDATES: Candidate[] = [
-  // Expired medicine: the "dates are marketing" shrug is exactly how a
-  // careless assistant talks, and the double-dose kicker is the part a
-  // reader winces at. Concrete person, concrete pill, real regret.
+  // The winner (second revision): the password line beats the medicine
+  // draft because people really do this one. A cat's name and a birth
+  // year is the password half the internet already has, and the
+  // assistant's breezy "hackers almost never guess" is the sort of
+  // confident nonsense a real chatbot serves with a straight face.
+  {
+    line: "Use your cat's name and your birth year for every password — you'll never forget it, and hackers almost never guess anything that personal.",
+    badAdvice: 5,
+    funny: 5,
+    tight: 5,
+    aiVoice: 5,
+    concrete: 5,
+  },
+  // First draft's winner: expired medicine. Still bad, still concrete,
+  // but it sits right on the 140 limit and the double-dose bit feels a
+  // shade more cartoonish than the password line's quiet disaster.
   {
     line: "Expired medicine is mostly fine — those dates are just marketing, so if grandma's pill feels weak she can simply take two to make up for it.",
     badAdvice: 5,
